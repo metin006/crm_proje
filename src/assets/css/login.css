@@ -1,0 +1,53 @@
+.login-container {
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Title */
+.login-title {
+  color: #3f51b5;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* Input field overrides */
+.login-input input {
+  background-color: #f8f8f8;
+}
+
+/* Submit button */
+.login-button {
+  background-color: #3f51b5;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #303f9f;
+}
+
+/* Error message */
+.login-error {
+  color: #f44336;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Responsivlik */
+@media screen and (max-width: 480px) {
+  .login-container {
+    margin: 200px auto;
+    padding: 20px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+}
